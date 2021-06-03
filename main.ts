@@ -1,4 +1,23 @@
-music.playMelody("C5 G B A C C5 D F ", 120)
-basic.forever(function on_forever() {
-    
+input.onPinPressed(TouchPin.P0, function () {
+    for (let index = 0; index < randint(1, 20); index++) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . . . .
+            # . . . #
+            . # # # .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . . . .
+            . # # # .
+            # . . . #
+            `)
+    }
+    if (true) {
+    	
+    } else {
+    	
+    }
 })
